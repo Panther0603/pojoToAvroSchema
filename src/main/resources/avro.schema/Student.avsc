@@ -1,0 +1,65 @@
+{
+  "type" : "record",
+  "name" : "Student",
+  "namespace" : "com.example.avroconvertor.pojo",
+  "fields" : [ {
+    "name" : "addressDetails",
+    "type" : {
+      "type" : "record",
+      "name" : "AddressDetails",
+      "fields" : [ {
+        "name" : "area",
+        "type" : "string"
+      }, {
+        "name" : "city",
+        "type" : "string"
+      }, {
+        "name" : "country",
+        "type" : "string"
+      }, {
+        "name" : "houseNo",
+        "type" : "string"
+      }, {
+        "name" : "landmark",
+        "type" : "string"
+      }, {
+        "name" : "state",
+        "type" : "string"
+      }, {
+        "name" : "streetNo",
+        "type" : "string"
+      } ]
+    }
+  }, {
+    "name" : "className",
+    "type" : "string"
+  }, {
+    "name" : "first_Name",
+    "type" : "string"
+  }, {
+    "name" : "last_name",
+    "type" : "string"
+  }, {
+    "name" : "personalDetail",
+    "type" : {
+      "type" : "record",
+      "name" : "PersonalDetail",
+      "fields" : [ {
+        "name" : "MobileNo",
+        "type" : "string"
+      }, {
+        "name" : "email",
+        "type" : "string"
+      }, {
+        "name" : "fatherName",
+        "type" : "string"
+      }, {
+        "name" : "motherName",
+        "type" : "string"
+      } ]
+    }
+  }, {
+    "name" : "uid",
+    "type" : "string"
+  } ]
+}
